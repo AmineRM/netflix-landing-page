@@ -1,0 +1,83 @@
+Main {
+  margin-top: 50px;
+  .MovieInfo {
+    width: 600px;
+    position: relative;
+    left: -150px;
+    img {
+      width: 255px;
+      height: auto;
+      position: relative;
+    }
+    .info {
+      width: 300px;
+      left: 0;
+      margin: 1%;
+      ul {
+        color: #fff;
+        list-style: none;
+        position: relative;
+        right: 5%;
+        display: flex;
+        justify-content: left;
+        li {
+          color: #666;
+          font-weight: 600;
+          font-size: 14px;
+          border-right: solid 1px #666;
+          padding-right: 12px;
+        }
+        li:nth-child(2) span {
+          color: #fff;
+          background-color: rgb(218, 24, 24);
+          border-radius: 2px;
+          padding: 2px 7px;
+        }
+        li:last-child {
+          border: none;
+        }
+      }
+    }
+    .text {
+      color: #fff;
+      font-size: 14px;
+    }
+  }
+  .playBtn,
+  .addBtn {
+    position: relative;
+    left: 55px;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 5px 15px;
+    border-radius: 2px;
+    margin: 1.5% 0.5%;
+    color: #fff;
+    cursor: pointer;
+  }
+  .playBtn {
+    background-color: rgb(218, 24, 24);
+  }
+  .addBtn {
+    background-color: #0000;
+    border: solid 1px #777;
+  }
+  .watchTrialer {
+    color: #fff;
+    display: flex;
+    width: 215px;
+    align-items: center;
+    position: relative;
+    margin-top: 5%;
+    left: -34%;
+    user-select: none;
+    cursor: pointer;
+    i {
+      font-size: 45px;
+    }
+    span {
+      font-size: 20px;
+      font-weight: 600;
+    }
+  }
+}
